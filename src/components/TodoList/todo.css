@@ -1,0 +1,105 @@
+.task {
+  border: 1px solid #000;
+  height: 100vh;
+  padding: 30px 50px;
+}
+.todo {
+  border: 1px solid #000;
+  height: 100vh;
+  position: relative;
+}
+
+.todo-header {
+  padding: 30px 50px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+input {
+  width: 100%;
+  padding: 2px;
+}
+
+.todo-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #e0e0e0;
+  padding: 20px;
+  display: flex !important;
+  width: 100%;
+  justify-content: space-between;
+}
+
+span:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  color: #fff;
+}
+
+.btn-green {
+  width: 100%;
+  padding: 5px;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-small {
+  padding: 5px;
+}
+.btn-large {
+  padding: 10px;
+}
+.btn-primary {
+  background-color: #2196f3;
+  margin-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #d9534f;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+}
+.ant-picker {
+  width: 100%;
+}
+.ant-select {
+  width: 100%;
+}
+.col-6 {
+  width: 50%;
+}
+.ant-checkbox-wrapper {
+  margin-right: auto;
+}
+
+.ant-form-item-control {
+  max-width: 100% !important;
+}
+
+.error {
+  display: block;
+  color: #d9534f;
+  width: 100%;
+}
+
+.not-error {
+  display: none !important;
+}
